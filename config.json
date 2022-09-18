@@ -1,0 +1,19 @@
+{
+    "port": 3000,
+    "db" : {
+        "host": "localhost",
+        "user": "achaika",
+        "database": "usof_backend",
+        "password": "securepass"
+    },
+    "jwt" : {
+        "secret": "achaikasupersecretkey",
+        "tokenLife": 900,
+        "confirmTokenLife": 120
+    },
+    "email" : {
+        "user": "achaikanodemailer@gmail.com",
+        "password": "zourfavuapmjhdmp"
+    },
+    "secretSalt": "119cf8eca296520d38535f0e967a6222"
+}
