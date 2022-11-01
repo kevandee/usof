@@ -1,0 +1,23 @@
+.page__wrapper {
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
+}
+
+.page:hover {
+    background-color: rgb(107, 33, 176);
+}
+
+.page__current:hover {
+    background-color: blueviolet;
+}

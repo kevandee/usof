@@ -1,0 +1,55 @@
+.post_input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color:white;
+    border-radius: 15px;
+    text-align: left;
+
+    padding: 10px 10px 5px 10px;
+}
+
+.post_input_container h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.post_input_container label {
+    color: black;
+}
+
+.title__container, .body__container, .categories__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon__container {
+    display: flex;
+    gap: 5px;
+}
+
+.check:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.xmark:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.clip:hover {
+    cursor:pointer;
+}
+
+.input {
+    min-height: 100px;
+    max-height: 150px;
+    resize:none;
+    text-align: justify;
+}

@@ -1,0 +1,25 @@
+.likes__container {
+    display: flex;
+    gap: 5px;
+    margin: auto 0;    
+}
+
+.like__btn {
+    cursor: pointer;
+    outline: 0;
+    color: #AAA;
+
+    display: block;
+}
+
+.like__btn span {
+    margin-right: 5px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}

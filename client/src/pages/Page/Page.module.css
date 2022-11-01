@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(155, 155, 155);
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 300px;
+    max-width: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.title__container {
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid blueviolet;
+} 
+
+.author {
+    margin: auto 0;
+}
+
+.title {
+    margin: auto 0;
+    font-size: 20px;
+    width: 65%;
+    word-wrap: break-word;
+}
+
+.categories__container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.likes {
+    display: flex;
+}
+
+.post__body {
+    border-top: 2px solid blueviolet;
+    padding: 15px;
+    border: 2px solid blueviolet;
+    text-align: justify;
+}
+
+.post__body p {
+    margin: 0;
+}
+
+.post__footer {
+    display:flex;
+    justify-content:space-between;
+}
+
+.timestamp {
+    display: flex;
+    justify-content: center;
+}
+
+.timestamp span{
+    display: block;   
+    margin: auto auto;
+    background-color: rgb(226, 226, 226);
+    padding: 2px 5px;
+    border-radius: 12px;
+}
+
+.likes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.add__comment__container {
+    display: flex;
+    align-items:center;
+}
+
+.add__comment a {
+    cursor: pointer;
+}
+
+.add__comment a:hover {
+    color: gray;
+}

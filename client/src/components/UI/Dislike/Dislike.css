@@ -1,0 +1,19 @@
+.dislike__btn {
+    cursor: pointer;
+    outline: 0;
+    color: #AAA;
+
+    display: block;
+    border: 3px solid #AAA;
+    border-radius: 14px;
+    padding: 4px
+}
+
+.dislike__btn span {
+    margin-left: 5px;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}

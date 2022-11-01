@@ -1,0 +1,19 @@
+.like__btn {
+    cursor: pointer;
+    outline: 0;
+    color: #AAA;
+
+    display: block;
+    border: 3px solid #AAA;
+    border-radius: 14px;
+    padding: 4px
+}
+
+.like__btn span {
+    margin-right: 5px;
+}
+
+.green {
+    color: green;
+    border-color: green;
+}

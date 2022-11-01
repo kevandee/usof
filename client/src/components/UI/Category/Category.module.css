@@ -1,0 +1,17 @@
+.category__container {
+    background-color: rgb(111, 181, 250);
+    padding: 7px;
+    border-radius: 15px;
+    width: max-content;
+    height: max-content;
+    margin: auto 0;
+    color:rgb(47, 32, 32);
+}
+
+.category__container:hover {
+    background-color: rgb(103, 166, 230);
+}
+
+.category__container span {
+    cursor:pointer;
+}

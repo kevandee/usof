@@ -1,0 +1,32 @@
+.posts {
+    border: 3px solid blueviolet;
+}
+
+.posts__header {
+    background-color:white;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.posts__header h1 {
+    padding: 5px;
+}
+
+.create_post_container {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border:3px solid rgb(111, 181, 250);
+    padding: 7px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.create_post_container:hover {
+    border-color: rgb(103, 166, 230);
+}
+
+

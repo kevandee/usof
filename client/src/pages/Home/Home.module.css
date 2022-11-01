@@ -1,0 +1,97 @@
+.container {
+    margin-top: 25px;
+    height: 350px;
+}
+
+.user__conatiner {
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.avatar__container {
+    width: 100%;
+}
+
+.avatar {
+    width: 250px;
+    height: auto;
+    margin: auto auto;
+    display: block;
+}
+
+.info__container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info__container div {
+    padding: 5px;
+}
+
+.name {
+    font-size: 28px;
+}
+
+.post__header__container {
+    background-color:white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.name__container span,
+.login__container span,
+.role__container span,
+.rating__container span{
+    border: 3px solid blueviolet;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.edit__container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.edit__container input {
+    margin-left: 15px;
+}
+
+.icon__container {
+    margin-left: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.xmark:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.check:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.pen {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px; 
+}
+
+.update_avatar__label {
+    color: rgb(30, 30, 30);
+    cursor: pointer;
+}
+
+.update_avatar__input {
+    display: none;
+}
+
+.update_avatar__label:hover {
+    color: black;
+}

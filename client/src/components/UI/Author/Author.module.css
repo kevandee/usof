@@ -1,0 +1,33 @@
+.post__author {
+    display: flex;
+    justify-content: baseline;
+    gap: 5px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 15px;
+    padding: 10px;
+    height: min-content; 
+    width: min-content;   
+}
+
+.image__container { 
+    background-color: white;
+}
+
+.image__container img {
+    width: 50px;
+}
+
+.author__info  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link__container {
+    display: flex;
+    justify-content: center;
+}
+
+.role {
+    margin-left: 7px;
+}

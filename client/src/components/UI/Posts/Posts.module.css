@@ -1,0 +1,16 @@
+.posts__container {
+    width: 60%;
+    margin: auto;
+}
+
+.inner__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border: 3px solid blueviolet;
+}
+
+.posts__container h1 {
+    text-align: center;
+    background-color: white;
+}
